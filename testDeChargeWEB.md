@@ -213,3 +213,11 @@ Write-Host ""
 Write-Host "Résultats exportés dans $ResultFile"
 
 ```
+## 3. Exécutez le script pour le test sur un seul serveur
+```powershell
+.\TestDeChargeGroupe.ps1 -TargetUrl "http://172.17.2.230" -Label "Apache-Direct" -ConcurrentSessions 50 -DurationSeconds 60
+```
+## 4. Exécutez le script pour le test sur 4 serveurs web en backend derrière un load balancer HaProxy en 172.17.2.235
+```powershell
+.\TestDeChargeGroupe.ps1 -TargetUrl "http://172.17.2.235" -Label "HAProxy-4backends" -ConcurrentSessions 50 -DurationSeconds 60
+```
