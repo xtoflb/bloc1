@@ -1,4 +1,4 @@
-# Test de charge d'un serveur web
+# Test de charge du service Apache2
 ## 1. Autorisation de lancement d'un script PowerShell
 Ouvrez PowerShell ISE sur votre poste et executez dans la console la commande :
 ```powershell
