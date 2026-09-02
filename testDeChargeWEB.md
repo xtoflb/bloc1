@@ -213,7 +213,7 @@ Write-Host ""
 Write-Host "Résultats exportés dans $ResultFile"
 
 ```
-## 3. Exécutez le script pour le test sur un seul serveur
+## 3. Exécutez le script pour le test sur un seul serveur en 172.17.2.230
 ```powershell
 .\TestDeChargeGroupe.ps1 -TargetUrl "http://172.17.2.230" -Label "Apache-Direct" -ConcurrentSessions 50 -DurationSeconds 60
 ```
