@@ -1,7 +1,7 @@
 # Activité 1 — Déployer localement un portfolio conteneurisé
 
 **BTS SIO2 — Bloc 1 : Support et mise à disposition de services informatiques**  
-**Durée : 4 heures**  
+**Durée : 2 heures**  
 **Modalité : activité Docker sur Windows ou Linux**
 
 ## Compétences visées du bloc 1
