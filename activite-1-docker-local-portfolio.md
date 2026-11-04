@@ -108,7 +108,8 @@ This message shows that your installation appears to be working correctly.
 
 **Tester le lancement d'une image Docker**
 
-Une image est le modèle immuable à partir duquel Docker créera les conteneurs
+Une image est le modèle immuable à partir duquel Docker créera les conteneurs.
+
 Téléchargez l’image Ubuntu 24.04 depuis le registre Docker :
 ```powershell
 docker pull ubuntu:24.04
